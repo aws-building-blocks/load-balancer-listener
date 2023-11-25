@@ -35,7 +35,7 @@ variable "protocol" {
 
 variable "ssl_policy" {
   type        = string
-  default     = "ELBSecurityPolicy-2016-08"
+  default     = null # "ELBSecurityPolicy-2016-08"
   description = "(Optional) Name of the SSL Policy for the listener. Required if protocol is HTTPS or TLS."
 }
 
